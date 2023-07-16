@@ -1,7 +1,7 @@
 #include "LCD.h"
 #include  "Common_Macros.h"
 
-
+//LCD Init
 void LCD_init(void){
 
 	DDRC=0xFF;    //make data port as output
